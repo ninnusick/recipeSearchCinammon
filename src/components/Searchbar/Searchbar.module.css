@@ -1,0 +1,37 @@
+input {
+  width: 500px;
+  height: 35px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: rgb(111, 111, 111);
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+}
+form {
+  position: fixed;
+  left: 500px;
+  top: 30px;
+}
+input::placeholder {
+  font-size: 18px;
+  line-height: 15px;
+  color: rgb(194, 194, 194);
+}
+
+.faSearch {
+  background: url("/icon-search.png") no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.inputIcon i {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+}
+.inputIcon {
+  border: none;
+}

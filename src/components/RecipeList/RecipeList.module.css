@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Quicksand:wght@300&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+  list-style-type: none;
+}
+.recipeItem {
+  width: 250px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.recipeLabel {
+  font-size: 20px;
+  color: rgb(94, 94, 94);
+  padding-left: 10px;
+  height: 45px;
+}
+.recListLi {
+  margin-top: 50px;
+  margin-right: 30px;
+  background-color: #f5f5f5;
+  width: 270px;
+  height: 420px;
+  border-radius: 3px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.calorieeIngredient {
+  color: rgb(94, 94, 94);
+  font-size: 15px;
+  margin-left: 10px;
+  width: 240px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(94, 94, 94);
+  border-bottom: 1px solid rgb(94, 94, 94);
+}
+
+.caloriee {
+  border-right: solid rgb(94, 94, 94) 1px;
+  height: 18px;
+  padding-right: 8px;
+}
+.ingredientt {
+  padding-left: 8px;
+}
+.sourcee {
+  padding-left: 10px;
+  margin-top: 10px;
+  color: rgb(94, 94, 94);
+}
+.spanCalIngr {
+  color: rgb(10, 149, 0);
+  font-weight: 600;
+}
