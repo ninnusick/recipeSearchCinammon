@@ -40,3 +40,6 @@ body {
 .instBut:last-child {
   right: 100px;
 }
+.appDiv {
+  padding-top: 90px;
+}

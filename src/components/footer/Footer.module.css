@@ -1,0 +1,34 @@
+.logowoBg {
+  width: 100px;
+}
+
+.footerUl {
+  width: 310px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footerLi {
+  padding-top: 10px;
+}
+.copyrightFooter {
+  color: rgb(10, 149, 0);
+  padding-left: 20px;
+  padding-top: 0;
+  font-size: 14px;
+}
+.networks {
+  width: 200px;
+  height: 90px;
+  margin-right: 100px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 170px;
+  width: 100%;
+}
+.copyright {
+  margin-top: 20px;
+}

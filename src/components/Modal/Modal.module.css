@@ -1,0 +1,138 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.Modal {
+  width: 700px;
+  height: 700px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.imgLabel {
+  display: flex;
+  justify-content: space-between;
+}
+.imgMo {
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.labelSaveSourceDiv {
+  width: 400px;
+  height: 250px;
+  margin-left: 30px;
+}
+.recipeLabelMo {
+  font-size: 22px;
+  padding-top: 0;
+  padding-right: auto;
+  text-align: center;
+}
+.recipeUrlMo {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.recipeSourceSp:hover {
+  color: #b4b4b4;
+}
+.recipeSourceSp {
+  text-decoration: underline 1px;
+  padding-left: 5px;
+  color: rgb(10, 149, 0);
+}
+.saveI {
+  width: 20px;
+  height: 20px;
+}
+.saveBut {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  margin-left: 40%;
+  margin-top: 160px;
+  border: none;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  color: rgb(10, 149, 0);
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+.saveBut:hover {
+  transition: 500ms linear;
+  background-color: #c0c0c0;
+}
+.ingrNutrH1Mo {
+  font-size: 20px;
+  color: #b4b4b4;
+  text-transform: uppercase;
+}
+hr {
+  border: solid 1px;
+  color: #b4b4b4;
+  width: 300px;
+}
+.ingridientsMo {
+  margin: auto;
+  padding: 0;
+}
+.ingrNutrDiv {
+  margin-top: 30px;
+  height: 350px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.ingrDiv {
+  padding-left: 15px;
+  width: 270px;
+  height: 200px;
+}
+.nutrDiv {
+  width: 270px;
+  margin-left: 90px;
+  font-size: 17px;
+}
+.liIngrNutrItem {
+  width: 270px;
+  height: auto;
+  font-size: 17px;
+  font-size: 17px;
+}
+
+.calMealWeight {
+  margin-left: 15px;
+  color: rgb(10, 149, 0);
+  font-size: 17px;
+  font-weight: 600;
+  width: 270px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.spanUnder {
+  color: #b4b4b4;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.copyrightModal {
+  color: rgb(10, 149, 0);
+  font-size: 12px;
+}

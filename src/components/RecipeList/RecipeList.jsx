@@ -1,10 +1,14 @@
 import styles from "./RecipeList.module.css";
 
-function RecipeList({ recipes }) {
+function RecipeList({ recipes, onOpen }) {
   return (
-    <ul>
+    <ul className={styles.recipeListUl}>
       {recipes.map(({ recipe }) => (
-        <li key={recipe.label} className={styles.recListLi}>
+        <li
+          key={recipe.label}
+          className={styles.recListLi}
+          onClick={() => onOpen(recipe)}
+        >
           <a href={recipe.url} target="_blank" rel="noreferrer noopener"></a>
           <img src={recipe.image} className={styles.recipeItem} />
           <h1 className={styles.recipeLabel}>{recipe.label}</h1>
