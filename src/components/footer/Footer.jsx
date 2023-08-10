@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer>
       <div className={styles.copyright}>
-        <img className={styles.logowoBg} src="/public/cinnamon2.png" alt="" />
+        <img className={styles.logowoBg} src="/cinnamon2.png" alt="" />
         <p className={styles.copyrightFooter}>
           Copyright © 2023 Cook Platforms, Inc.
         </p>
@@ -21,7 +21,7 @@ function Footer() {
       </ul>
       <img
         className={styles.networks}
-        src="/public/color_rgb_10__149__0__-removebg-preview.png"
+        src="/color_rgb_10__149__0__-removebg-preview.png"
         alt=""
       />
     </footer>
